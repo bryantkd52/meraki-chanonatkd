@@ -43,6 +43,42 @@ section .eyebrow{letter-spacing:.23em;color:#68adff}section h2{font-size:clamp(3
 @media(max-width:1100px){#profesor .card{background:linear-gradient(90deg,#121a27f7,#121a27e8),url('assets/profesor-retrato.webp') right center/auto 100% no-repeat,#111824;padding-right:32px;min-height:unset}#profesor .card .quote{max-width:100%;font-size:clamp(20px,2.4vw,27px)}}
 @media(max-width:850px){#profesor .card{padding:28px;background:linear-gradient(90deg,#121a27f5,#121a27e8),url('assets/profesor-retrato.webp') right center/auto 100% no-repeat,#111824}}
 @media(max-width:570px){#profesor .card{padding:26px 24px;min-height:unset;background:linear-gradient(90deg,#121a27f9,#121a27ef),url('assets/profesor-retrato.webp') right center/auto 100% no-repeat,#111824}#profesor .card .quote{font-size:22px;line-height:1.45}}
+
+/* Meraki light visual identity — clarity and family-friendly contrast */
+:root{color-scheme:light;--bg:#f8fafc;--card:#fff;--text:#152235;--muted:#546278;--red:#d92236;--blue:#1766b5}
+html,body{background:#f8fafc;color:#152235}
+header{background:#fffffff2;border-bottom:1px solid #dbe3ed;box-shadow:0 5px 24px #1a2a4210}
+.brand{color:#10223a}.brand b{color:#d92236}.brand small{color:#546278}
+nav a{color:#34465d}nav a:hover{color:#c91e31}
+.lang{background:#f1f5f9;color:#19324f;border-color:#cbd5e1}
+.btn{background:#d92236;color:#fff}.btn.secondary{color:#18324f;background:#fff;border-color:#a9b9cc;box-shadow:0 5px 18px #15243b12}.btn.secondary:hover{background:#edf3f9}
+.hero{background:linear-gradient(90deg,#fffffffc 0%,#fffffff4 33%,#ffffffc9 60%,#ffffff70 100%),url('assets/instalaciones.webp') center center/cover no-repeat,#f8fafc;border-bottom:1px solid #dce4ef}
+.hero:before{opacity:.12}.hero:after{opacity:.15}
+.hero h1{color:#12243b;text-shadow:none}.hero h1 span{color:#d92236;text-shadow:none}
+.hero .lead{color:#3a4b60}.eyebrow,.hero .eyebrow,section .eyebrow{color:#1766b5}
+.hero-panel{background:linear-gradient(135deg,#fffffff4,#f3f7fcf5);border:1px solid #cdd8e5;box-shadow:0 18px 55px #172a451c;color:#162b44}
+.hero-panel .big{color:#142941}.hero-panel p{color:#42556e}.hero-panel .tag{color:#31465e;border-color:#b7c6d8}
+section:not(.hero):not(.alt){background:linear-gradient(135deg,#fff,#f7faff)}
+section.alt{background:linear-gradient(120deg,#eef4fa,#f8fafc)}
+section h2,section h3{color:#14263c}p{color:#45566b}
+.card{background:linear-gradient(150deg,#fff,#f8fbff);border:1px solid #dce5ef;box-shadow:0 14px 34px #2037510c;color:#15263b}
+.card:hover{border-color:#9cb9d7;box-shadow:0 18px 42px #1b3c6218}
+.card p{color:#526176}
+#filosofia .card{border-top-color:#2875c7}
+#programas{background:linear-gradient(90deg,#fffffff7,#ffffffe0),url('assets/instalaciones.webp') center center/cover no-repeat,#f7f9fc}
+#programas .card,#programas .card:nth-child(2),#programas .card:nth-child(3){background:linear-gradient(155deg,#fffffffa,#f3f7fdf5);border:1px solid #d4deeb}
+#programas .card:nth-child(2){border-top:3px solid #d92236}
+#programas .card:nth-child(1),#programas .card:nth-child(3){border-top:3px solid #1766b5}
+#profesor .card,#profesor .card:nth-child(n){background:linear-gradient(90deg,#fffffff7 0%,#fffffff2 54%,#ffffffe0 73%,#ffffff40 100%),url('assets/profesor-retrato.webp') right center/auto 100% no-repeat,#fff;border:1px solid #dce5ef;color:#15263b}
+#profesor .card .quote{color:#172b45}
+#precios .price{color:#172b45}
+#ubicacion .card{background:linear-gradient(120deg,#fffffff5,#ffffffdb),url('assets/instalaciones.webp') center/cover no-repeat,#fff}
+.notice{background:#eaf2fb;border-left-color:#1766b5;color:#253e5d}
+.small{color:#5b6c80}
+.footer{background:#eef3f8;border-top:1px solid #d6e0eb;color:#53657a}
+@media(max-width:1100px){#profesor .card{background:linear-gradient(90deg,#fffffff8,#ffffffed),url('assets/profesor-retrato.webp') right center/auto 100% no-repeat,#fff}}
+@media(max-width:850px){.hero{background:linear-gradient(90deg,#ffffffed,#ffffffd8),url('assets/instalaciones.webp') center/cover no-repeat,#fff}#profesor .card{background:linear-gradient(90deg,#fffffff9,#ffffffec),url('assets/profesor-retrato.webp') right center/auto 100% no-repeat,#fff}}
+@media(max-width:570px){.hero{background:linear-gradient(90deg,#ffffffef,#ffffffdf),url('assets/instalaciones.webp') center/cover no-repeat,#fff}.hero-panel{background:#fffffff2}#profesor .card{background:linear-gradient(90deg,#fffffff9,#fffffff0),url('assets/profesor-retrato.webp') right center/auto 100% no-repeat,#fff}}
 </style></head>
 <body><header><div class="wrap nav"><a class="brand" href="#inicio">MERAKI <b>CHANONATKD</b><small>TAEKWONDO CENTER · CANCÚN</small></a><nav><a href="#filosofia" data-es="Filosofía" data-en="Philosophy">Filosofía</a><a href="#programas" data-es="Programas" data-en="Programs">Programas</a><a href="#profesor" data-es="Profesor" data-en="Instructor">Profesor</a><a href="#precios" data-es="Precios" data-en="Pricing">Precios</a><a href="#ubicacion" data-es="Ubicación" data-en="Location">Ubicación</a></nav><div class="actions"><button class="lang" id="language" aria-label="Switch language">EN</button><a class="btn" href="https://wa.me/529987406579?text=Hola%2C%20quiero%20agendar%20una%20clase%20muestra%20gratuita%20en%20Meraki%20ChanonaTKD." target="_blank" rel="noopener" data-es="Clase gratis" data-en="Free trial">Clase gratis</a></div></div></header>
 <main><section class="hero" id="inicio"><div class="wrap hero-grid"><div><div class="eyebrow" data-es="Taekwondo tradicional · Cancún" data-en="Traditional Taekwondo · Cancún">Taekwondo tradicional · Cancún</div><h1 data-es="Disciplina que forma <span>carácter.</span>" data-en="Discipline that builds <span>character.</span>">Disciplina que forma <span>carácter.</span></h1><p class="lead" data-es="Una escuela donde niños desde los 4 años aprenden Taekwondo mientras practican respeto, perseverancia, confianza y responsabilidad." data-en="A school where children from age 4 learn Taekwondo while practicing respect, perseverance, confidence and responsibility.">Una escuela donde niños desde los 4 años aprenden Taekwondo mientras practican respeto, perseverancia, confianza y responsabilidad.</p><div class="cta"><a class="btn" href="https://wa.me/529987406579?text=Hola%2C%20quiero%20agendar%20una%20clase%20muestra%20gratuita%20en%20Meraki%20ChanonaTKD." target="_blank" rel="noopener" data-es="Agenda una clase muestra gratuita →" data-en="Book a free trial class →">Agenda una clase muestra gratuita →</a><a class="btn secondary" href="#programas" data-es="Conoce nuestra escuela" data-en="Explore our school">Conoce nuestra escuela</a></div></div><div class="hero-panel"><div class="eyebrow" data-es="¡Te esperamos!" data-en="Join us!">¡Te esperamos!</div><div class="line"></div><div class="big">4+</div><p data-es="Años de edad para comenzar tu camino en el Taekwondo." data-en="Years old — the starting age for your Taekwondo journey.">Años de edad para comenzar tu camino en el Taekwondo.</p><div class="tags"><span class="tag" data-es="Disciplina" data-en="Discipline">Disciplina</span><span class="tag" data-es="Respeto" data-en="Respect">Respeto</span><span class="tag" data-es="Confianza" data-en="Confidence">Confianza</span><span class="tag" data-es="Perseverancia" data-en="Perseverance">Perseverancia</span></div></div></div></section>
